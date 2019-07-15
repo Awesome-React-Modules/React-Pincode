@@ -15,8 +15,8 @@ npm install --save react-pincode
 This will only work for Indian Pincodes.
 
 
-The three input fields are wrapped inside an <div> Element.
-and each input field is also wrapped inside <div>. So that a user can style it according to the need in the project.
+The three input fields are wrapped inside an ```<div>``` Element.
+and each input field is also wrapped inside ```<div>```. So that a user can style it according to the need in the project.
 
 Whenever the wrong Pincode is entered red border appears on the pin code input field and on entering a right pin code, city and state input fields get automatically filled with correct data
 
