@@ -80,5 +80,13 @@ export default class Example extends Component {
 
 export default Example;
 ```
+##Testing and Contribution
 
+1)Copy the test-server folder from outside the react-pincode module.
+2)From react-pincode run : npm install => npm run-script build => npm sink
+3)Go to test-server directory and run : npm install => npm link react-pincode => npm start
+
+This will start a development server on your localhost.
+
+Now everytime you make changes to your react-pincode module and run 'npm run-script build' from inside, those changes will get reflected to your locally running server.
 
