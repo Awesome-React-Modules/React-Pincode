@@ -6,7 +6,12 @@
   "scripts": {
     "build": "webpack"
   },
-  "keywords": ["Pincode", "react-pincode", "Indian pincode", "react zipcode"],
+  "keywords": [
+    "Pincode",
+    "react-pincode",
+    "Indian pincode",
+    "react zipcode"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plxity/React-Pincode.git"
