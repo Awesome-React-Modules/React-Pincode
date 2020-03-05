@@ -88,7 +88,7 @@ export default Example;
 4. Change your directory to `test-server` directory, using `cd test-server`	
 5. Install the dependecies using `npm install`	
 6. Now run `npm link react-pincode`	
-7. Congratulations! You have set-up the test server for react-dark.	
+7. Congratulations! You have set-up the test server for react-pincode.	
 Now just run `npm start` from `test-server` directory to launch the test-server.	
 8. You don't need to stop this server, the changes made in the module will be reflected automatically each time you build them using `npm run build`	
 
