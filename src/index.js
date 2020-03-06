@@ -8,12 +8,16 @@ class Pincode extends Component {
     this.state = {
       pincode: "",
       city: "",
-      state: ""
+      state: "",
+      error: ""
     };
   }
   onChange(e) {
     this.setState({ [e.target.name]: e.target.value });
     if (e.target.value.length === 6) {
+      this.setState({
+        error: ""
+      });
       axios
         .get(`https://api.postalpincode.in/pincode/${e.target.value}`)
         .then(res =>
@@ -32,13 +36,15 @@ class Pincode extends Component {
     if (e.target.value.length < 6) {
       this.setState({
         city: "",
-        state: ""
+        state: "",
+        error: "ZIP code must be of 6 digits"
       });
     }
   }
   render() {
     return (
       <div style={this.props.Container}>
+        {this.state.error?<span className="error-display">{this.state.error}</span>:null}
         <div style={this.props.pincodeContainer}>
           <input
             maxLength={6}
@@ -48,6 +54,7 @@ class Pincode extends Component {
             placeholder="Pin Code"
             value={this.state.pincode}
             id="pincode"
+            type="number"
             style={this.props.pincodeInput}
           />
         </div>
