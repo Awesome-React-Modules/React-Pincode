@@ -33,7 +33,7 @@ class Pincode extends Component {
           document.getElementById("pincode").className = "error";
         });
     }
-    if (e.target.value.length < 6) {
+    if (e.target.value.length !== 6) {
       this.setState({
         city: "",
         state: "",
