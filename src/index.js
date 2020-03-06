@@ -23,7 +23,7 @@ class Pincode extends Component {
         .then(res =>
           this.setState({
             state: res.data[0].PostOffice[0].State,
-            city: res.data[0].PostOffice[0].Region
+            city: res.data[0].PostOffice[0].District
           })
         )
         .then(() => {
