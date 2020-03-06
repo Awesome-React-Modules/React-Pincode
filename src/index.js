@@ -31,6 +31,9 @@ class Pincode extends Component {
         })
         .catch(err => {
           document.getElementById("pincode").className = "error";
+          this.setState({
+            error: "Invalid PIN Code"
+          });
         });
     }
     if (e.target.value.length !== 6) {
@@ -44,7 +47,9 @@ class Pincode extends Component {
   render() {
     return (
       <div style={this.props.Container}>
-        {this.state.error?<span className="error-display">{this.state.error}</span>:null}
+        {this.state.error ? (
+          <span className="error-display">{this.state.error}</span>
+        ) : null}
         <div style={this.props.pincodeContainer}>
           <input
             maxLength={6}
