@@ -1,5 +1,7 @@
 .App {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 300px;
+  background-color: #ffffcc;
+  border: 20px solid#ccffcc;
+  box-shadow: 5px 20px#a2a8a8;
 }
-
