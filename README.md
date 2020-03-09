@@ -47,6 +47,10 @@ export default class Example extends Component {
 export default Example;
 ```
 
+### PLAYGROUND
+
+Find Codepen Implementation of the module [here](https://codepen.io/Siddhi5/pen/GRJMqWB)
+
 ## Pincode Props
 
 | Name             | Description                                     |
