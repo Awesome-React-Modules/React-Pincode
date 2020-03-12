@@ -2,18 +2,4 @@
   text-align: center;
   margin-top: 40px;
 }
-body
-{
-  background-color: #a4dced;
-background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-h1 {
-  padding: 60px;
-  text-align: center;
-  background: #a4dced;
-  color: white;
-  font-size: 60px;
-}
-
 
