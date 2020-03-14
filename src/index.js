@@ -11,6 +11,20 @@ class Pincode extends Component {
     };
   }
 
+ removeDuplicates(originalArray, prop) {
+  var newArray = [];
+  var lookupObject = {};
+
+  for (let i in originalArray) {
+    lookupObject[originalArray[i][prop]] = originalArray[i];
+  }
+
+  for (let i in lookupObject) {
+    newArray.push(lookupObject[i]);
+  }
+  return newArray;
+  }
+  
   outputHTML(Info) {
     if (Info.length == 0) {
       document.getElementById("city").innerHTML = `<option value="default">City</option>`;
@@ -34,13 +48,17 @@ class Pincode extends Component {
     }
   }
   async searchStatesAndCity(pincodeToSearch) {
-    let availableInfo;
+    let availableInfo,availableDataWithRepetition;
     try {
       const dataInformation = await fetch("https://young-eyrie-96553.herokuapp.com/api/data");
       const data = await dataInformation.json();
-      availableInfo = data.filter(info => {
+      availableDataWithRepetition = data.filter(info => {
         return String(info.POSTAL_CODE).toLowerCase().includes(pincodeToSearch);
       });
+
+      availableInfo = this.removeDuplicates(availableDataWithRepetition, "POSTAL_CODE");
+
+
       if (availableInfo.length) {
         this.outputHTML(availableInfo)
       }
