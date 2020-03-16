@@ -46,41 +46,52 @@ class Pincode extends Component {
   }
   render() {
     return (
-      <div style={this.props.Container}>
+      <div style={this.props.Container} class="outer_box">
         {this.state.error ? (
           <span className="error-display">{this.state.error}</span>
         ) : null}
-        <div style={this.props.pincodeContainer}>
+        <div style={this.props.pincodeContainer} class="group">
           <input
             maxLength={6}
             minLength={6}
             onChange={e => this.onChange(e)}
             name="pincode"
-            placeholder="Pin Code"
+            placeholder=" "
             value={this.state.pincode}
             id="pincode"
             type="number"
             style={this.props.pincodeInput}
+            class="pin"
+            required
           />
+           <span class="highlight"></span>
+          <label>Pin code</label>
         </div>
-        <div style={this.props.cityContainer}>
+        <div style={this.props.cityContainer} class="group">
           <input
             type="String"
-            disabled={true}
-            placeholder="City"
+            readonly
+            placeholder=" "
             value={this.state.city}
             style={this.props.cityInput}
+            class="inp"
+            required
           />
+          <label>City</label>
         </div>
-        <div style={this.props.stateContainer}>
+        <div style={this.props.stateContainer} class="group">
           <input
             type="String"
-            placeholder="State"
-            disabled={true}
+            placeholder=" "
+            readonly
             value={this.state.state}
             style={this.props.stateInput}
+            class="inp"
+            required
           />
+          <label>State</label>
         </div>
+        <h4 align="center">Enter 6 digit Pincode</h4>
       </div>
     );
   }
