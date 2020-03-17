@@ -22,10 +22,13 @@ input[type=number] {
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+  text-align: center;	
+  padding: 5vw 5vw 0 5vw;
 }
 input {
   height: 7.5vh;
-  width: 38vw;
+  width: 25vw;
   max-width: 500px;
   margin-bottom: 1em;
   border: 1px solid grey;
@@ -64,6 +67,7 @@ input:valid ~ label {
   top: -9px;
   left: 9px;
   font-size: 14px;
+  font-weight: 600;
   color: #68b3ff;
   background-color: #ffffff;
 }
@@ -93,4 +97,7 @@ input:focus ~ .highlight {
   border: 1px solid grey;
   pointer-events: none;
 }
-
+h4 {	
+  color: #3599ff;	
+  font-family: sans-serif;	
+}

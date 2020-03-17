@@ -91,7 +91,7 @@ class Pincode extends Component {
           />
           <label>State</label>
         </div>
-        <h4 align="center">Enter 6 digit Pincode</h4>
+        <h4>Enter 6-digit Pincode</h4>
       </div>
     );
   }
