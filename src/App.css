@@ -22,16 +22,26 @@ input[type=number] {
   font-size: 14px;
 }
 
-.input[type=number]
+.styles
 {
-  text-align: center;
-  margin-top: 40px;
   
-  padding: 12px 20px;
-  margin: 21px 10px;
-  
-
-  box-shadow:inset 0 0 5px 5px #888;
+     box-sizing: border-box;
+      display: block;
+      border: none;
+      padding: 20px;
+      width: 300px;
+      margin: 40px auto;
+      font-size: 18px;
+      outline: none;
+      text-align: center;
+      box-shadow:inset 0 0 5px 5px ghostwhite;
+      text-transform: uppercase;
+      
 
 }
-
+input:focus
+{
+	background-color: white;
+	outline: none;
+  border: 3px solid rgba(81, 203, 238, 1);
+}

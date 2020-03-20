@@ -1,17 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
-
- 
-
-const element = <FontAwesomeIcon icon={faCheckCircle} /> 
 
 class Pincode extends Component {
   constructor(props) {
     super(props);
-    <FontAwesomeIcon icon="CheckCircle" />
+  
     this.state = {
       pincode: "",
       city: "",
@@ -59,8 +53,7 @@ class Pincode extends Component {
         ) : null}
 
         <div style={this.props.pincodeContainer}>
-          <input 
-          
+          <input className='styles'
             maxLength={6}
             minLength={6}
             onChange={e => this.onChange(e)}
@@ -73,7 +66,7 @@ class Pincode extends Component {
           />
         </div>
         <div style={this.props.cityContainer}>
-          <input 
+          <input className='styles'
             type="String"
             disabled={true}
             placeholder="City"
@@ -82,7 +75,7 @@ class Pincode extends Component {
           />
         </div>
         <div style={this.props.stateContainer}>
-          <input
+          <input className='styles'
             type="String"
             placeholder="State"
             disabled={true}
