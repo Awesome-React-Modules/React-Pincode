@@ -6,7 +6,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
  
 
-const element = <FontAwesomeIcon icon={faCheckCircle} />
+const element = <FontAwesomeIcon icon={faCheckCircle} /> 
 
 class Pincode extends Component {
   constructor(props) {
@@ -59,7 +59,7 @@ class Pincode extends Component {
         ) : null}
 
         <div style={this.props.pincodeContainer}>
-          <input className="App"
+          <input 
           
             maxLength={6}
             minLength={6}
@@ -73,7 +73,7 @@ class Pincode extends Component {
           />
         </div>
         <div style={this.props.cityContainer}>
-          <input className="App"
+          <input 
             type="String"
             disabled={true}
             placeholder="City"
@@ -82,7 +82,7 @@ class Pincode extends Component {
           />
         </div>
         <div style={this.props.stateContainer}>
-          <input className="App"
+          <input
             type="String"
             placeholder="State"
             disabled={true}
