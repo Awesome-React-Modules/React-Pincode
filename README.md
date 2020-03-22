@@ -5,6 +5,7 @@ React Pincode is a web application which extracts the information and displays i
 See this app live at https://react-pincode.netlify.com/
 
 Snippet of the working application is displayed below.
+
 [<img src="./Capture.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
 
 [<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
