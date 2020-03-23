@@ -16,6 +16,11 @@ Fixes #
 <!-- Add revelant screenshots/links to view your work-->
 
 
+#### System Information :
+<!-- Add the relevant information about the system used during development-->
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
 
 #### Reviewers:
