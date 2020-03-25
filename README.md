@@ -9,6 +9,25 @@ Snippet of the working application is displayed below.
 
 [<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
 
+## Table of Contents
+- [About](#about)
+- [Prerequisites](#prerequisites)
+- [Steps to set the environment](#steps-to-set-the-environment)
+- [Usage/Need](#usageneed)
+  - [Note](#note)
+- [Working](#working)
+  - [JS](#js)
+  - [Playground](#playground)
+- [Pincode props](#pincode-props)
+- [Example](#example)
+  - [JS](#js-1)
+  - [Development and Testing](#development-and-testing)
+- [Contributing](#contributing)
+- [Development Guidelines](#development-guidelines)
+- [Owner](#owner)
+- [Mentor](#mentor)
+
+
 ## About
 
 The three input fields are wrapped inside an ```<div>``` Element.
