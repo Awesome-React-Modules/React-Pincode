@@ -11,7 +11,7 @@ We want to make contributing to this project as easy and transparent as possible
 1.  Fork [this](https://github.com/Awesome-React-Modules/React-Pincode) repository.
 2.  Clone the forked repository.
     ```
-    git clone https://github.com/<> your_user_name/React-Pincode.git
+    git clone https://github.com/<your_user_name>/React-Pincode.git
     ```
 3. Navigate to the project directory.
     ```
