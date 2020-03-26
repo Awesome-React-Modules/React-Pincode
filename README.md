@@ -113,13 +113,13 @@ Now just run `npm start` from `test-server` directory to launch the test-server.
 [![Watch the video](https://img.youtube.com/vi/DtBObHLaQDA/maxresdefault.jpg)](https://www.youtube.com/watch?v=DtBObHLaQDA)	
 
 ## Contributing
-Please read CONTRIBUTING.md for information on how to contribute to React-Pincode.
+Please read [Contributing Guidelines](./CONTRIBUTING.md) for information on how to contribute to React-Pincode.
 
 ## Development Guidelines
 1. Write clean and readable code with proper formatting.
 2. Create a branch and push your code in the branch.
 3. Please follow PR template to create PR.
-4. Please read our [Code of Conduct]() .
+4. Please read our [Code of Conduct](./CODE_OF_CONDUCT.md) .
 
 ## Owner
 [Apoorv Taneja](https://github.com/plxity)
