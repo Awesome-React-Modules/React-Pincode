@@ -46,11 +46,11 @@ class Pincode extends Component {
   }
   render() {
     return (
-      <div style={this.props.Container} class="outer_box">
+      <div style={this.props.Container} className="outer_box">
         {this.state.error ? (
           <span className="error-display">{this.state.error}</span>
         ) : null}
-        <div style={this.props.pincodeContainer} class="group">
+        <div style={this.props.pincodeContainer} className="group">
           <input
             maxLength={6}
             minLength={6}
@@ -61,32 +61,32 @@ class Pincode extends Component {
             id="pincode"
             type="number"
             style={this.props.pincodeInput}
-            class="pin"
+            className="pin"
             required
           />
-           <span class="highlight"></span>
+           <span className="highlight"></span>
           <label>Pin code</label>
         </div>
-        <div style={this.props.cityContainer} class="group">
+        <div style={this.props.cityContainer} className="group">
           <input
             type="String"
             readonly
             placeholder=" "
             value={this.state.city}
             style={this.props.cityInput}
-            class="inp"
+            className="inp"
             required
           />
           <label>City</label>
         </div>
-        <div style={this.props.stateContainer} class="group">
+        <div style={this.props.stateContainer} className="group">
           <input
             type="String"
             placeholder=" "
             readonly
             value={this.state.state}
             style={this.props.stateInput}
-            class="inp"
+            className="inp"
             required
           />
           <label>State</label>
