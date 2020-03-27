@@ -66,7 +66,7 @@ export default Example;
 
 ### PLAYGROUND
 
-Find Codepen Implementation of the module [here](https://codepen.io/Siddhi5/pen/GRJMqWB)
+Find Codepen Implementation of the module [here](https://codepen.io/adityabisoi/pen/poJQXzx)
 
 ## Pincode Props
 
