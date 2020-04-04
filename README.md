@@ -5,9 +5,12 @@ React Pincode is a web application which extracts the information and displays i
 See this app live at https://react-pincode.netlify.com/
 
 Snippet of the working application is displayed below.
-[<img src="./Capture.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
 
-[<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
+[<img src="./correct_pin.png" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
+
+[<img src="./invalid_pin.png" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
+
+[<img src="./length_pin.png" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
 
 ## Table of Contents
 - [About](#about)
@@ -82,7 +85,7 @@ export default Example;
 
 ### PLAYGROUND
 
-Find Codepen Implementation of the module [here](https://codepen.io/Siddhi5/pen/GRJMqWB)
+Find Codepen Implementation of the module [here](https://codepen.io/adityabisoi/pen/poJQXzx)
 
 ## Pincode Props
 
@@ -91,6 +94,7 @@ Find Codepen Implementation of the module [here](https://codepen.io/Siddhi5/pen/
 | Container        | Container which wraps all the three Input Field |
 | pincodeContainer | Container which wraps pincode Input Field       |
 | cityContainer    | Container which wraps City Input Field          |
+| districtContainer| Container which wraps District Input Field      |
 | stateContainer   | Container which wraps StateInput Field          |
 | pincodeInput     | Props for styling pincode input field           |
 | cityInput        | Props for styling city input field              |

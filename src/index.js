@@ -8,6 +8,7 @@ class Pincode extends Component {
     this.state = {
       pincode: "",
       city: "",
+      district: "",
       state: "",
       error: ""
     };
@@ -23,7 +24,8 @@ class Pincode extends Component {
         .then(res =>
           this.setState({
             state: res.data[0].PostOffice[0].State,
-            city: res.data[0].PostOffice[0].District
+            city: res.data[0].PostOffice[0].Block,
+            district: res.data[0].PostOffice[0].District
           })
         )
         .then(() => {
@@ -40,6 +42,7 @@ class Pincode extends Component {
       this.setState({
         city: "",
         state: "",
+        district:"",
         error: "ZIP code must be of 6 digits"
       });
     }
@@ -70,6 +73,15 @@ class Pincode extends Component {
             placeholder="City"
             value={this.state.city}
             style={this.props.cityInput}
+          />
+        </div>
+        <div style={this.props.districtContainer}>
+          <input
+            type="String"
+            disabled={true}
+            placeholder="District"
+            value={this.state.district}
+            style={this.props.districtInput}
           />
         </div>
         <div style={this.props.stateContainer}>
