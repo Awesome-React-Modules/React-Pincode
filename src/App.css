@@ -1,3 +1,9 @@
+body{
+  background-color: #eedfde;
+  padding: 0;
+  margin: 0;
+}
+
 .error {
   border: red 2.7px solid;
 }
@@ -10,10 +16,43 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+  /* -moz-appearance: textfield; */
+  width: 30%;
+  border: 1px solid rgb(141, 224, 250);
+  padding: 10px;
+  background-color: rgb(141, 224, 250);
+  color: black;
+  font-size: 30px;
+  margin: 100px;
+  text-align: center;
+  border-radius: 4px;
+
 }
 
+input[type=String] {
+  /* -moz-appearance: textfield; */
+  width: 30%;
+  border: 1px solid #D6D6D6;
+  padding: 10px;
+  background-color: #D6D6D6;
+  color: black;
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 4px;
+
+}
+
+
+
+
 .error-display{
-  color: red;
+  color: #a94442;
   font-size: 14px;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
