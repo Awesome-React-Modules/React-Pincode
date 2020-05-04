@@ -29,7 +29,7 @@ input[type=number] {
 }
 
 input[type=String] {
-  /* -moz-appearance: textfield; */
+  -moz-appearance: textfield;
   width: 30%;
   border: 1px solid #D6D6D6;
   padding: 10px;
