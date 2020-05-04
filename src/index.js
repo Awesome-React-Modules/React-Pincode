@@ -49,7 +49,7 @@ class Pincode extends Component {
   }
   render() {
     return (
-      <div style={this.props.Container}>
+      <div class="main" style={this.props.Container}>
         {this.state.error ? (
           <span className="error-display">{this.state.error}</span>
         ) : null}
@@ -68,6 +68,7 @@ class Pincode extends Component {
         </div>
         <div style={this.props.cityContainer}>
           <input
+
             type="String"
             disabled={true}
             placeholder="City"
