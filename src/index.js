@@ -34,7 +34,7 @@ class Pincode extends Component {
         .catch(err => {
           document.getElementById("pincode").className = "error";
           this.setState({
-            error: "Invalid PIN Code"
+            error: `${this.props.invalidError || "Invalid PIN Code"}`
           });
         });
     }
@@ -42,8 +42,8 @@ class Pincode extends Component {
       this.setState({
         city: "",
         state: "",
-        district:"",
-        error: "ZIP code must be of 6 digits"
+        district: "",
+        error: `${this.props.lenghtError || "ZIP code must be of 6 digits"}`
       });
     }
   }

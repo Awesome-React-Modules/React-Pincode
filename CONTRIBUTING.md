@@ -35,4 +35,4 @@ We want to make contributing to this project as easy and transparent as possible
 
 Mentors will review your PR and merge if there are no conflicts found!
 
-## Keep Contributing!!
+## Keep Contributing!

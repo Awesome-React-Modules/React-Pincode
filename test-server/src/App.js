@@ -5,7 +5,7 @@ import Pincode from "react-pincode";
 function App() {
   return (
     <div className="App">
-      <Pincode />
+      <Pincode invalidError="PLease check pincode" lenghtError="check length" />
     </div>
   );
 }
