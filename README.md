@@ -5,9 +5,9 @@ React Pincode is a published NPM module that can be integrated inside any ReactJ
 
 
 <div align="center">
-    <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" width="200px">
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" width="200px">
-    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" width="200px">
+    <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" >
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" >
+    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" >
 </div>
 
 Snippet of the working application is displayed below.
