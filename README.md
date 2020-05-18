@@ -2,8 +2,6 @@
 
 React Pincode is a published NPM module that can be integrated inside any ReactJS application. It is used to extract City, District, and State information as soon as the user enters valid Pin-Code. On entering a valid Pin-Code, a GET request is made to the Indian Postal Service API and the useful information is extracted and results are displayed in the respective fields. If a valid Pincode is entered an error is thrown which can be customized by a user using a specific prop.
 
-
-
 <div align="center">
     <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" >
     <img src="https://forthebadge.com/images/badges/built-with-love.svg" >
