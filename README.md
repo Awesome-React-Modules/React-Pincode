@@ -12,11 +12,7 @@ React Pincode is a published NPM module that can be integrated inside any ReactJ
 
 #### Snippet of the working application is displayed below.
 
-[<img src="./correct_pin.png" style="width: 50%;" />](https://github.com/plxity/React-Pincode)
-
-[<img src="./invalid_pin.png" style="width: 50%;" />](https://github.com/plxity/React-Pincode)
-
-[<img src="./length_pin.png" style="width: 50%;" />](https://github.com/plxity/React-Pincode)
+<img src="./pincode.gif" width="50%" />
 
 ## Table of Contents
 - [About](#about)
