@@ -1,0 +1,18 @@
+addReviewers: true
+
+addAssignees: false
+
+# A list of reviewers to be added to pull requests (GitHub user name)
+reviewers:
+  - plxity
+  - yellowwoods12
+ 
+
+
+# Set 0 to add all the reviewers (default: 0)
+numberOfReviewers: 0
+
+
+# A list of keywords to be skipped the process that add reviewers if pull requests include it
+skipKeywords:
+   - wip
