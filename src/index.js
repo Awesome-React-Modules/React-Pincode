@@ -10,7 +10,8 @@ class Pincode extends Component {
       city: "",
       district: "",
       state: "",
-      error: ""
+      error: "",
+      flag: false
     };
   }
   onChange(e) {
@@ -30,11 +31,15 @@ class Pincode extends Component {
         )
         .then(() => {
           document.getElementById("pincode").classList.remove("error");
+          this.setState({
+            flag:true
+          })
         })
         .catch(err => {
           document.getElementById("pincode").className = "error";
           this.setState({
-            error: `${this.props.invalidError || "Invalid PIN Code"}`
+            error: `${this.props.invalidError || "Invalid PIN Code"}`,
+            flag: false
           });
         });
     }
@@ -43,7 +48,8 @@ class Pincode extends Component {
         city: "",
         state: "",
         district: "",
-        error: `${this.props.lenghtError || "ZIP code must be of 6 digits"}`
+        error: `${this.props.lenghtError || "ZIP code must be of 6 digits"}`,
+        flag: false
       });
     }
   }
@@ -93,6 +99,9 @@ class Pincode extends Component {
             style={this.props.stateInput}
           />
         </div>
+        {this.state.flag?
+      <button onClick={() => window.location.href="https://www.google.com/maps/place/"+this.state.city}>Show in Google Maps</button>:""
+    }
       </div>
     );
   }
