@@ -1,4 +1,8 @@
 src
-demo
+test-server
 .babelrc
 webpack.config.js
+.vscode
+.github
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Pincode from './reactpincode';
+import Pincode from 'react-pincode';
 
 function App() {
   const [pincodeData, setPincodeData] = useState('');

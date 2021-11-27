@@ -50,32 +50,6 @@ class Pincode extends Component {
           });
         });
     }
-    //   axios
-    //     .get(`https://api.postalpincode.in/pincode/${e.target.value}`)
-    //     .then((res) =>
-    //       this.setState(
-    //         {
-    //           stateName: res.data[0].PostOffice[0].State,
-    //           city: res.data[0].PostOffice[0].Block,
-    //           district: res.data[0].PostOffice[0].District,
-    //           areaName: res.data[0].PostOffice[0].Name,
-    //         },
-    //         () => {
-    //           const data = this.state;
-    //           this.props.getData(data);
-    //         }
-    //       )
-    //     )
-    //     .then(() => {
-    //       document.getElementById('pincode').classList.remove('error');
-    //     })
-    //     .catch((err) => {
-    //       document.getElementById('pincode').className = 'error';
-    //       this.setState({
-    //         error: `${this.props.invalidError || 'Invalid PIN Code'}`,
-    //       });
-    //     });
-    // }
     if (e.target.value.length !== 6) {
       this.setState({
         city: '',
