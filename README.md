@@ -31,10 +31,6 @@ The four input fields are wrapped inside an `<div>` element and each input field
 
 Whenever the wrong Pincode is entered red border appears on the pin code input field and on entering a right pin code, city, district and state input fields get automatically filled with correct data
 
-## Prerequisites
-
-- NodeJS (check for it's installation on terminal using `npm -v`)
-
 ### Note
 
 This will only work for Indian Pincodes.
