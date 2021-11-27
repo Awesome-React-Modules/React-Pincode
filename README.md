@@ -63,7 +63,7 @@ function App() {
 
 ### Playground
 
-Find Codepen Implementation of the module [here](https://codepen.io/adityabisoi/pen/poJQXzx)
+Find Codepen Implementation of the module [here](https://codesandbox.io/s/proud-waterfall-fljqj?file=/src/App.js)
 
 ## Pincode Props
 
